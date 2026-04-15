@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './NavBar'
 import Cart from './Cart'
 import Card from './Card'
+import Meals from './Meals'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
    <Cart />
   </NavBar>
   <Card />
+   <Meals />
    </>
   )
 }
