@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import Cart from './Cart'
 import Card from './Card'
 import Meals from './Meals'
+import Form from './Form'
 
 function App() {
 
@@ -13,7 +14,9 @@ function App() {
    <Cart />
   </NavBar>
   <Card />
-   <Meals />
+   <Meals>
+    <Form/>
+   </Meals>
    </>
   )
 }

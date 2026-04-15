@@ -45,5 +45,22 @@ body{
    margin: 10%;
 }
 .list ul{
+    position: relative;
     width: 90%;
+}
+.list ul li{
+    position: relative;
+}
+.amount-input{
+    width: 30px;
+}
+.sub-btn{
+    background-color: rgb(194, 35, 35);
+
+}
+.form-box{
+    color: black;
+    position: absolute;
+    right: 10%;
+    top: 0;
 }
