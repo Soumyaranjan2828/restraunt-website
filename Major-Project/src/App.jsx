@@ -5,6 +5,7 @@ import Cart from './Cart'
 import Card from './Card'
 import Meals from './Meals'
 import Form from './Form'
+import Portal from './Portal'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
    <Meals>
     <Form/>
    </Meals>
+   <Portal />
    </>
   )
 }
